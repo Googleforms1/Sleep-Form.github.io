@@ -10,7 +10,7 @@ body{
     display: grid;
 }
 .box1{
-    min-width: 350px;
+    min-width: 200px;
     margin-top: 10px;
     width: 650px;
     min-height: 210px;
@@ -37,7 +37,7 @@ body{
     font-size: 15px;
 }
 .question-box{
-    min-width: 350px;
+    min-width: 200px;
     margin-top: 15px;
     width: 650px;
     min-height: 210px;
@@ -62,7 +62,7 @@ body{
     font-size: 15px;
 }
 .question-box2{
-    min-width: 350px;
+    min-width: 200px;
     margin-top: 15px;
     width: 650px;
     min-height: 210px;
