@@ -10,9 +10,9 @@ body{
     display: grid;
 }
 .box1{
-    max-width: 100%;
     margin-top: 10px;
-    width: 650px;
+    max-width: 650px;
+    min-width: 90%;
     height: 210px;
     background: white;
     border-radius: 10px;
@@ -37,9 +37,9 @@ body{
     font-size: 15px;
 }
 .question-box{
-    max-width: 100%;
     margin-top: 15px;
-    width: 650px;
+    max-width: 650px;
+    min-width: 90%;
     height: 210px;
     background: white;
     border: 1px solid rgb(229,230,233);
@@ -62,9 +62,9 @@ body{
     font-size: 15px;
 }
 .question-box2{
-    max-width: 100%;
     margin-top: 15px;
-    width: 650px;
+    max-width: 650px;
+    min-width: 90%;
     height: 210px;
     background: white;
     border: 1px solid rgb(229,230,233);
