@@ -1,0 +1,138 @@
+body{
+    background: rgb(240,235,248);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container2{
+    display: grid;
+}
+.box1{
+    min-width: 350px;
+    margin-top: 10px;
+    width: 650px;
+    min-height: 210px;
+    background: white;
+    border-radius: 10px;
+}
+.title-box{
+    width: 100%;
+    height: 12px;
+    background: rgb(103,58,183);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid rgb(229,230,233);
+}
+.title{
+  margin-left: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:100;
+}
+.title-text{
+    margin-left: 25px;
+    margin-right: 20px;
+    font-family: roboto;
+    font-size: 15px;
+}
+.question-box{
+    min-width: 350px;
+    margin-top: 15px;
+    width: 650px;
+    min-height: 210px;
+    background: white;
+    border: 1px solid rgb(229,230,233);
+    border-radius: 7px;
+}
+.question1{
+    margin-left: 30px;
+    font-size: 17px;
+    font-family: arial;
+}
+.radio-btns{
+    display: block;
+    margin-left: 20px;
+    margin-top: 15px;
+    accent-color: rgb(115, 0, 155);
+}
+.question-text{
+    margin-left: 15px;
+    font-family: roboto;
+    font-size: 15px;
+}
+.question-box2{
+    min-width: 350px;
+    margin-top: 15px;
+    width: 650px;
+    min-height: 210px;
+    background: white;
+    border: 1px solid rgb(229,230,233);
+    border-radius: 7px;
+}
+.submit-btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 23px;
+    padding-left: 23px;
+    margin-top: 15px;
+    color: white;
+    background:rgb(103,58,183);
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.clear-form{
+    color:rgb(115, 0, 155);
+    margin-left: 570px;
+    cursor: pointer;
+    font-size: 15px;
+    position: absolute;
+}
+.clear-div{
+    display: inline-flex;
+    font-family: roboto;
+}
+.radio-info{
+    width: 15px;
+    height: 15px;
+    border: 5px solid;
+}
+.ee{
+    color: white;
+    text-decoration: none;
+}
+.bottom-text{
+    position: absolute;
+    margin-top: 70px;
+    font-family: roboto;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 170px;
+    color: grey;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+} 
+.red{
+    color: red;
+}
+.required-box{
+    border: 1px solid rgb(229,230,233);
+    border-bottom: none;
+    border-left: none;
+    padding-left: 20px;
+    width: 100%;
+    height: 10px;
+
+}
+.required{
+    color: red;
+    margin-bottom: 15px;
+    font-family: roboto;
+    font-size: 14px;
+}
