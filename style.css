@@ -1,3 +1,5 @@
+
+
 body{
     background: rgb(240,235,248);
 }
@@ -12,7 +14,6 @@ body{
 .box1{
     margin-top: 10px;
     max-width: 650px;
-    min-width: 90%;
     height: 210px;
     background: white;
     border-radius: 10px;
@@ -37,9 +38,8 @@ body{
     font-size: 15px;
 }
 .question-box{
-    margin-top: 15px;
     max-width: 650px;
-    min-width: 90%;
+    margin-top: 15px;
     height: 210px;
     background: white;
     border: 1px solid rgb(229,230,233);
@@ -64,7 +64,6 @@ body{
 .question-box2{
     margin-top: 15px;
     max-width: 650px;
-    min-width: 90%;
     height: 210px;
     background: white;
     border: 1px solid rgb(229,230,233);
@@ -72,6 +71,7 @@ body{
 }
 .submit-btn{
     padding-top: 10px;
+    position: absolute;
     padding-bottom: 10px;
     padding-right: 23px;
     padding-left: 23px;
@@ -104,20 +104,14 @@ body{
     text-decoration: none;
 }
 .bottom-text{
-    position: absolute;
-    margin-top: 70px;
+    margin-top: 80px;
     font-family: roboto;
     font-size: 12px;
     text-align: center;
-    margin-left: 170px;
+    margin-left: auto;
+    margin-right: auto;
     color: grey;
 }
-.image{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 80px;
-} 
 .red{
     color: red;
 }
@@ -136,3 +130,4 @@ body{
     font-family: roboto;
     font-size: 14px;
 }
+@media (max-width:320px)  { }
